@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
+// Flexible(%로 폭 높이 조절), Expanded(남은 공간 다 잡아먹기) 를 사용해보자~~
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   static const IconData heart = IconData(0xf442, fontFamily: CupertinoIcons.iconFont, fontPackage: CupertinoIcons.iconFontPackage);
